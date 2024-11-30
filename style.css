@@ -1,0 +1,119 @@
+/*Le body contient tout le contenu de la page */
+body {                                                  
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajoute une image de fond */
+body {
+    background-image: url("https://static.lolwallpapers.net/2016/04/5720b69a94ecf-932x620.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*La barre de navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* La mise en page de la barre de navigation */
+nav {
+    justify-content: space-around ;
+    justify-self: center;
+}
+
+/*La mise en page du body*/
+.container {
+    width: 85%;
+     margin: auto;
+     overflow: hidden;
+
+ }
+
+/*Les liens*/
+ .Lien {
+    color: #ffffff;
+    text-decoration:none ;
+    justify-content: space-between ;
+    margin: 0 50px;
+ }
+
+/*Les titres*/
+ .titre {
+    color: #ffffff;
+    text-decoration:none ;
+ }
+ .Lien:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Le contenue principal*/
+#main {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    justify-self: center;
+    text-align: center;
+    }
+
+/*Les images*/
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+ }
+/*Le pied de page*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    }
+/*Toute les pages ligne 1-81*/
+
+/*Les runes et Les Items*/
+table, th, td {
+    border:1px solid black;
+  }
+
+  #Build {
+    padding: 75px;
+    background-color: #a80000;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .imag {
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+  .table {
+    padding: 75px;
+    background-color: #00c3ff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .table table:first-child {
+    float: left;
+  }
+  .table table:last-child {
+    float: right;
+  }
+  .hitema {
+    
+
+  }
+
